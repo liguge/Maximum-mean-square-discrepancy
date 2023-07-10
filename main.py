@@ -20,7 +20,7 @@ def parse_args():
     parser.add_argument('--nepoch', type=int, default=200, help='max number of epoch')
     parser.add_argument('--num_classes', type=int, default=4, help='')
     parser.add_argument('--lr', type=float, default=0.001, help='')
-    parser.add_argument('--u', type=float, default=0, help='')
+    parser.add_argument('--u', type=float, default=1.0, help='')
     parser.add_argument('--weight_decay', type=float, default=0.0001, help='initialization list')
     args = parser.parse_args()
     return args
