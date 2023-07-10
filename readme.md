@@ -6,7 +6,11 @@
 ### Official Materials
  - TF:  https://github.com/QinYi-team/MMSD/tree/main
  - Paper： 
-   - [PUBLISHED PAPERS](https://doi.org/10.1016/j.knosys.2023.110748)
+   - [PUBLISHED PAPERS](https://doi.org/10.1016/j.knosys.2023.110748
+        
+        
+        
+        )
    
      ​     
    
@@ -32,7 +36,7 @@ abstract = {Discrepancy representation metric completely determines the transfer
 
 ### Usage
 
-建议大家将开源的MMSD域差异度量损失（即插即用）在赵老师的开源的代码中替换掉度量模块。（https://github.com/ZhaoZhibin/UDTL）
+建议大家将开源的MMSD域差异度量损失（即插即用）在赵老师的开源的代码中替换掉度量模块。(https://github.com/ZhaoZhibin/UDTL)
 
 替换方式：
 
