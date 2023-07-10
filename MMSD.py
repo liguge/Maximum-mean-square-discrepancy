@@ -175,7 +175,7 @@ class Model(nn.Module):
         return x1, x2
 
 def train(model, source_loader, target_loader, optimizer):
-    lambd = -4 / (np.sqrt(epoch / (args.nepoch - epoch + 1)) + 1) + 4  #稳定的必须加  proposed by 邵海东老师
+    lambd = -4 / (np.sqrt(epoch / (args.nepoch - epoch + 1)) + 1) + 4  #稳定的必须加  proposed by 邵海东老师 https://doi.org/10.1016/j.jmsy.2022.09.004.
     model.train()
     iter_source = iter(source_loader)
     iter_target = iter(target_loader)
