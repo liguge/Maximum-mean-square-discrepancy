@@ -6,9 +6,7 @@
 ### Official Materials
  - TF:  https://github.com/QinYi-team/MMSD/tree/main
  - Paper： 
-   - [PUBLISHED PAPERS](https://doi.org/10.1016/j.knosys.2023.110748
-        
-        )
+   - [PUBLISHED PAPERS](https://doi.org/10.1016/j.knosys.2023.110748)
    
      ​     
    
